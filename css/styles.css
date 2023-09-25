@@ -91,6 +91,11 @@ input
    
 }
 
+.container2 {
+  max-width: 40rem;
+  height: auto;
+  
+}
 
 @media (min-width: 375px) {
   .card-info {
@@ -138,13 +143,25 @@ input
   margin-top: 2rem;
 }
 
-.formulario button {
 
-  padding: 1.5rem;
+
+.btn-primary { padding: 1.5rem;
   border-radius: 0.4rem;
   border: 1px solid var(--grey);
   font-size: 1.6rem;
   background-color: var(--DarkSlateGrey);
   color: var(--White);
-  
+
+}
+
+.btn-primary:hover {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(253,98,31,0.8379945728291316) 49%, rgba(252,176,69,1) 100%);
+  box-shadow: 5px 5px 10px hsla(18, 73%, 57%, 0.702);
+  border: none;
+}
+
+.succes {
+  display: flex;
+  flex-direction: column;
 }
